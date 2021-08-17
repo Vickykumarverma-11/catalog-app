@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 
+import 'drawer.dart';
+
 class HomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
@@ -14,6 +16,7 @@ class HomePage extends StatelessWidget{
           child: Text("Welcome to the Flutter"),
         ),
       ),
+      drawer: MyDrawer(),
     );
   }
 }
